@@ -1,0 +1,423 @@
+.rectangle {
+  /* Rectangle 2134 */
+
+  position: absolute;
+  width: 1440px;
+  height: 1513px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 234px;
+  height: 56px;
+  left: 101px;
+  bottom: 0px;
+}
+
+.category {
+  padding: 5px;
+  width: 65px;
+  height: 20px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  /* identical to box height, or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* --c-text */
+
+  color: #1d1f22;
+}
+
+.categoryActive {
+  padding: 5px;
+  color: green;
+  border-bottom-style: solid;
+  border-bottom-color: green;
+  width: 65px;
+  height: 20px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  /* identical to box height, or 19px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* --c-primary */
+
+  color: #5ece7b;
+}
+
+img {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 699px;
+  top: calc(50% - 41px / 2 + 4.5px);
+}
+
+.title {
+  /* Title */
+
+  position: absolute;
+  width: 299px;
+  height: 68px;
+  left: calc(50% - 299px / 2 - 469.5px);
+  top: calc(50% - 68px / 2 - 562.5px);
+
+  /* Heading / Desktop / H2 */
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 160%;
+  /* identical to box height, or 67px */
+
+  display: flex;
+  align-items: center;
+
+  /* --c-text */
+
+  color: #1d1f22;
+}
+
+.productCard1 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 - 427px);
+  bottom: 738px;
+}
+
+.productCard2 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 - 1px);
+  bottom: 738px;
+}
+
+.productCard3 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 + 425px);
+  bottom: 738px;
+}
+
+.productCard4 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 - 427px);
+  bottom: 191px;
+}
+
+.productCard5 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 - 1px);
+  bottom: 191px;
+}
+
+.productCard6 {
+  /* Product Card - Desktop */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 386px;
+  height: 444px;
+  left: calc(50% - 386px / 2 + 425px);
+  bottom: 191px;
+}
+
+.cardImage {
+  /* Image */
+
+  width: 354px;
+  height: 330px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* Image */
+
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.spacer {
+  /* _layout / --spacer-base */
+
+  width: 24px;
+  height: 350px;
+
+  opacity: 0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cardContent {
+  /* Content */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 354px;
+  height: 58px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.contentTitle {
+  /* Title */
+
+  width: 354px;
+  height: 29px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  display: flex;
+  align-items: center;
+
+  /* --c-black */
+
+  color: #1d1f22;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.contentPrice {
+  /* Price */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  width: 58px;
+  height: 29px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.actions {
+  /* Actions */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 22px;
+
+  position: absolute;
+  width: 204px;
+  height: 40px;
+  right: 101px;
+  top: 23px;
+}
+
+.spacerActions {
+  /* _layout / --spacer-xl */
+
+  width: 40px;
+  height: 40px;
+
+  opacity: 0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.currency {
+  /* Group 1 */
+
+  width: 38px;
+  height: 29px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.cart {
+  /* Icon / Empty Cart */
+
+  width: 20px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.eur {
+  /* Label */
+
+  position: absolute;
+  left: 88.06%;
+  right: 8.06%;
+  top: 8.92%;
+  bottom: 89.16%;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-align: right;
+
+  color: #1d1f22;
+}
+
+.jpy {
+  /* Label */
+
+  position: absolute;
+  left: 88.06%;
+  right: 8.61%;
+  top: 12.23%;
+  bottom: 85.86%;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-align: right;
+
+  color: #1d1f22;
+}

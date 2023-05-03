@@ -1,0 +1,3762 @@
+/* Category */
+
+position: relative;
+width: 1440px;
+height: 1513px;
+
+/* Rectangle 2134 */
+
+position: absolute;
+width: 1440px;
+height: 1513px;
+left: 0px;
+top: 0px;
+
+background: #ffffff;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 - 427px);
+bottom: 738px;
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+visibility: hidden;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+visibility: hidden;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+visibility: hidden;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Icon / Heart / Outline */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+right: 16px;
+top: 16px;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 5%;
+
+/* --c-dark-variant
+
+--_c-dark-secondary
+*/
+background: #43464e;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 - 1px);
+bottom: 738px;
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+visibility: hidden;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+visibility: hidden;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Icon / Heart / Outline */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+right: 16px;
+top: 16px;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 5%;
+
+/* --c-dark-variant
+
+--_c-dark-secondary
+*/
+background: #43464e;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 - 1px);
+bottom: 191px;
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+visibility: hidden;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+visibility: hidden;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+visibility: hidden;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Icon / Heart / Outline */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+right: 16px;
+top: 16px;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 5%;
+
+/* --c-dark-variant
+
+--_c-dark-secondary
+*/
+background: #43464e;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 + 425px);
+bottom: 191px;
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+visibility: hidden;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+visibility: hidden;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+visibility: hidden;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Icon / Heart / Outline */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+right: 16px;
+top: 16px;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 5%;
+
+/* --c-dark-variant
+
+--_c-dark-secondary
+*/
+background: #43464e;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 + 425px);
+bottom: 738px;
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+visibility: hidden;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+visibility: hidden;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Rectangle 2135 */
+
+position: absolute;
+width: 356px;
+height: 338px;
+left: 0px;
+top: -5px;
+
+background: #ffffff;
+opacity: 0.5;
+
+/* out of stock */
+
+position: absolute;
+left: 25.42%;
+right: 25.71%;
+top: 44.24%;
+bottom: 43.94%;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 160%;
+/* identical to box height, or 38px */
+display: flex;
+align-items: center;
+
+color: #8d8f9a;
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Icon / Heart / Outline */
+
+position: absolute;
+visibility: hidden;
+width: 20px;
+height: 20px;
+right: 16px;
+top: 16px;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 5%;
+
+/* --c-dark-variant
+
+--_c-dark-secondary
+*/
+background: #43464e;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+color: #8d8f9a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+color: #8d8f9a;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Product Card - Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 386px;
+height: 444px;
+left: calc(50% - 386px / 2 - 427px);
+bottom: 191px;
+
+/* shadow */
+filter: drop-shadow(0px 4px 35px rgba(168, 172, 176, 0.19));
+
+/* Product Card / Elements / Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 16px;
+
+width: 386px;
+height: 444px;
+
+/* --c-white */
+background: #ffffff;
+/* --product-card-box-shadow:hover
+
+--product-card-box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+*/
+box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Image */
+
+width: 354px;
+height: 330px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Rectangle 7.1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #c4c4c4;
+
+/* Product D */
+
+position: absolute;
+visibility: hidden;
+left: -4.17%;
+right: -119.44%;
+top: -9.51%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product A */
+
+position: absolute;
+left: -43.75%;
+right: -43.75%;
+top: 0%;
+bottom: 0%;
+
+background: url(image.png);
+
+/* Product C */
+
+position: absolute;
+visibility: hidden;
+left: 180.56%;
+right: -339.81%;
+top: -85.28%;
+bottom: -86.81%;
+
+background: url(image.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Product B */
+
+position: absolute;
+visibility: hidden;
+left: -32.87%;
+right: -31.48%;
+top: -32.21%;
+bottom: -32.21%;
+
+background: url(image.png);
+
+/* Leave white brooch */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: url(image);
+
+/* Badge */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+
+position: absolute;
+visibility: hidden;
+width: 61px;
+height: 35px;
+left: 0px;
+top: 8px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Badge Icon */
+
+display: none;
+width: 12px;
+height: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10%;
+bottom: 10%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Label */
+
+width: 29px;
+height: 19px;
+
+/* --badge-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 160%;
+/* or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* --c-white */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Circle Icon */
+
+position: absolute;
+width: 52px;
+height: 52px;
+right: 15px;
+bottom: -26px;
+
+/* --button-box-shadow
+
+--button-box-shadow: 0px 4px 11px rgba(29, 31, 34, 0.1);
+*/
+filter: drop-shadow(0px 4px 11px rgba(29, 31, 34, 0.1));
+
+/* _Circle Icon / Elements  / Common */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Lighten */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(255, 255, 255, 0.05);
+
+/* Darken */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.05);
+
+/* Icon / Empty Cart */
+
+position: absolute;
+left: 26.92%;
+right: 26.92%;
+top: 26.92%;
+bottom: 26.92%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 4.15%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.85%;
+bottom: 29.11%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.15%;
+
+/* --c-white */
+background: #ffffff;
+
+/* _layout / --spacer-base */
+
+width: 24px;
+height: 24px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* --spacer-base */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* Content */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 354px;
+height: 58px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 354px;
+height: 29px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: center;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Price */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* _Price / Elements / Regular */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 58px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+width: 58px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: right;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title */
+
+position: absolute;
+width: 299px;
+height: 68px;
+left: calc(50% - 299px / 2 - 469.5px);
+top: calc(50% - 68px / 2 - 562.5px);
+
+/* Heading / Desktop / H2 */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 160%;
+/* identical to box height, or 67px */
+display: flex;
+align-items: center;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Header - Desktop */
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+/* Surface */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-white */
+background: #ffffff;
+
+/* Actions */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 22px;
+
+position: absolute;
+width: 204px;
+height: 40px;
+right: 101px;
+top: 23px;
+
+/* _layout / --spacer-xl */
+
+width: 40px;
+height: 40px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* --spacer-xl */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* --c-info-variant
+
+--_c-blue-secondary
+*/
+background: #b4d2f4;
+/* style guid */
+box-shadow: 1px 3px 8px -1px rgba(0, 0, 0, 0.39);
+
+/* _layout / --spacer-xl */
+
+width: 40px;
+height: 40px;
+
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Group 1 */
+
+width: 38px;
+height: 29px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 76.47%;
+right: 20.59%;
+top: 53.75%;
+bottom: 38.75%;
+
+border: 1px solid #000000;
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px 10px;
+gap: 12px;
+
+position: absolute;
+width: 32px;
+height: 29px;
+left: 124px;
+top: 5.5px;
+
+/* $ */
+
+width: 12px;
+height: 29px;
+
+/* --price-regular-font */
+font-family: "Raleway";
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+display: flex;
+align-items: flex-end;
+
+/* --c-black */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon / Empty Cart */
+
+width: 20px;
+height: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.84%;
+bottom: 4.16%;
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 5.84%;
+bottom: 29.11%;
+
+background: #43464e;
+
+/* Vector */
+
+position: absolute;
+left: 31.27%;
+right: 46.83%;
+top: 74.91%;
+bottom: 4.16%;
+
+background: #43464e;
+
+/* Vector */
+
+position: absolute;
+left: 67.49%;
+right: 10.61%;
+top: 74.91%;
+bottom: 4.16%;
+
+background: #43464e;
+
+/* Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 234px;
+height: 56px;
+left: 101px;
+bottom: 0px;
+
+/* header__navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 234px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+width: 97px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 65px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 65px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-primary */
+color: #5ece7b;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 65px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+width: 69px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 37px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 37px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 37px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+width: 68px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 36px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 36px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 36px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 82px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 36px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 36px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 36px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 82px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 36px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 36px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 36px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 82px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 36px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 36px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 36px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* _Header / Elements / Desktop / Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+
+display: none;
+width: 82px;
+height: 56px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Padding left */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 30px;
+
+width: 36px;
+height: 52px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Label */
+
+width: 36px;
+height: 20px;
+
+font-family: "Raleway";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* --c-text */
+color: #1d1f22;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Border */
+
+width: 36px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Padding right */
+
+width: 16px;
+height: 2px;
+
+/* --c-primary
+
+--_c-orange-primary
+*/
+background: #5ece7b;
+opacity: 0;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* a-logo */
+
+position: absolute;
+width: 41px;
+height: 41px;
+left: 699px;
+top: calc(50% - 41px / 2 + 4.5px);
+
+/* logo transparent */
+
+position: absolute;
+width: 41px;
+left: calc(50% - 41px / 2);
+top: 0%;
+bottom: 0%;
+
+/* Brand icon */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Vector 3 */
+
+position: absolute;
+visibility: hidden;
+left: 8.8%;
+right: 8.75%;
+top: 10.8%;
+bottom: 10.59%;
+
+background: #ed1c24;
+border: 1px solid #ffffff;
+
+/* VSF */
+
+position: absolute;
+left: 12%;
+right: 12%;
+top: 13.2%;
+bottom: 13.2%;
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: -0.07%;
+top: 0%;
+bottom: 0.83%;
+
+/* svg 1 */
+
+position: absolute;
+left: 0%;
+right: -0.07%;
+top: 0%;
+bottom: 0.83%;
+
+/* svg 2 */
+
+position: absolute;
+left: 6.45%;
+right: 6.6%;
+top: 0%;
+bottom: 20.98%;
+
+background: #1dcf65;
+
+/* svg 3 */
+
+position: absolute;
+left: 0%;
+right: -0.07%;
+top: 4.33%;
+bottom: 0.83%;
+
+background: linear-gradient(316.98deg, #52d67a 16.88%, #5aee87 84.04%);
+
+/* svg 17 */
+
+position: absolute;
+left: 25.55%;
+right: 21.97%;
+top: 31.25%;
+bottom: 29.47%;
+
+/* svg 18 */
+
+position: absolute;
+left: 25.55%;
+right: 29.25%;
+top: 40.75%;
+bottom: 29.47%;
+
+/* svg 19 */
+
+position: absolute;
+left: 25.55%;
+right: 29.25%;
+top: 40.75%;
+bottom: 29.47%;
+
+background: #ffffff;
+
+/* svg 20 */
+
+position: absolute;
+left: 60.65%;
+right: 21.97%;
+top: 31.25%;
+bottom: 58.17%;
+
+/* svg 21 */
+
+position: absolute;
+left: 60.65%;
+right: 21.97%;
+top: 31.25%;
+bottom: 58.17%;
+
+background: #ffffff;
