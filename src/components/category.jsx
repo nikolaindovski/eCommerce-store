@@ -1,12 +1,18 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Category extends Component {
   state = {};
   render() {
     return (
-      <span onClick={()=>this.props.onCategoryClick(this.props.category)} className={this.getClasses()}>
-        {this.props.category.name}
-      </span>
+      <Link className="categoryLink" to="/">
+        <span
+          onClick={() => this.props.onCategoryClick(this.props.category)}
+          className={this.getClasses()}
+        >
+          {this.props.category.name}
+        </span>
+      </Link>
     );
   }
 
