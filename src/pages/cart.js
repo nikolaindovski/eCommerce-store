@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+const dataLayer = window.dataLayer || [];
+
 class Cart extends Component {
   state = {};
   render() {
@@ -62,6 +64,31 @@ class Cart extends Component {
           </div>
         </div>
       </div>
+    );
+  }
+
+  componentDidMount() {
+    this.props.cart.map(
+      (product) => (
+        dataLayer.push({ ecommerce: null }),
+        dataLayer.push({
+          event: "checkout",
+          currency: this.props.currencySymbol,
+          ecommerce: {
+            actionPage: "Cart Page",
+            products: [
+              {
+                name: product.name,
+                id: product.id,
+                price: product.price * this.props.currencyRate,
+                quantity: product.quantity,
+                dimension1: product.id + "-" + product.size,
+                dimension2: product.name + "-" + product.color,
+              },
+            ],
+          },
+        })
+      )
     );
   }
 }

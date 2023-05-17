@@ -43,7 +43,8 @@ class CartOverlay extends Component {
           </div>
         ))}
         <div>
-          <strong>TOTAL:</strong> {this.props.totalPrice}
+          <strong>TOTAL:</strong> {this.props.currencySymbol}{" "}
+          {(this.props.totalPrice * this.props.currencyRate).toFixed(2)}
         </div>
         <Link to="/cart">
           <button className="button">VIEW BAG</button>

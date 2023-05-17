@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
+const dataLayer = window.dataLayer || [];
+
 class PDP extends Component {
-  state = {
-    properties: [{ size: "m", color: "black" }],
-  };
+  state = {};
   render() {
     return (
       <div className="pdpContainer">
-        <h1>PDPDPDPDPDPDPDPDPDPDP</h1>
+        <h1>PDP</h1>
         <img className="pdpImage" src={this.props.product.picture}></img>
         <div className="pdpContent">
           <div>{this.props.product.name}</div>
@@ -91,7 +91,10 @@ class PDP extends Component {
             {this.props.currencySymbol}
             {(this.props.product.price * this.props.currencyRate).toFixed(2)}
           </div>
-          <button className="button" onClick={() => this.props.onAddToCart(this.props.product)}>
+          <button
+            className="button"
+            onClick={() => this.props.onAddToCart(this.props.product)}
+          >
             ADD TO CART
           </button>
         </div>
@@ -99,19 +102,25 @@ class PDP extends Component {
     );
   }
 
-  handleColorSelect = (event) => {
-    let state = this.state;
-    state.properties.color = event.target.value;
-    this.setState({ state });
-    console.log(this.state.properties);
-  };
-
-  handleSizeSelect = (event) => {
-    let state = this.state;
-    state.properties.size = event.target.value;
-    this.setState({ state });
-    console.log(this.state.properties);
-  };
+  componentDidMount() {
+    dataLayer.push({ ecommerce: null });
+    dataLayer.push({
+      event: "detail",
+      currency: this.props.currencySymbol,
+      ecommerce: {
+        actionPage: "Product Display Page",
+        product: [
+          {
+            name: this.props.product.name,
+            id: this.props.product.id,
+            price: (this.props.product.price * this.props.currencyRate),
+            dimension1: this.props.product.id + "-" + this.props.cartItem.size,
+            dimension2: this.props.product.name + "-" + this.props.cartItem.color,
+          },
+        ],
+      },
+    });
+  }
 }
 
 export default PDP;

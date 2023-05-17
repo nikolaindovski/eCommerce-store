@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Product from "../components/product";
 
+const dataLayer = window.dataLayer || [];
+
+
 class Home extends Component {
   state = {};
   render() {
@@ -15,6 +18,7 @@ class Home extends Component {
               onProductClick={this.props.onProductClick}
               currencyRate={this.props.currencyRate}
               currencySymbol={this.props.currencySymbol}
+              onProductImpression={this.props.onProductImpression}
             />
           ))}
         </div>

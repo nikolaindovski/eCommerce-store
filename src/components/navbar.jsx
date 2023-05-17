@@ -50,14 +50,16 @@ class NavBar extends Component {
 
   handleCartOverlay = () => {
     let state = this.state;
-    state.overlay.cart = state.overlay.cart ? 0 : 1;
+    state.overlay.cart ? (state.overlay.cart = 0) : (state.overlay.cart = 1);
     state.overlay.currency = 0;
     this.setState({ state });
   };
 
   handleCurrencyOverlay = () => {
     let state = this.state;
-    state.overlay.currency = state.overlay.currency ? 0 : 1;
+    state.overlay.currency
+      ? (state.overlay.currency = 0)
+      : (state.overlay.currency = 1);
     state.overlay.cart = 0;
     this.setState({ state });
   };

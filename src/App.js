@@ -28,6 +28,8 @@ import Home from "./pages/home";
 import Cart from "./pages/cart";
 import PDP from "./pages/pdp";
 
+const dataLayer = window.dataLayer || [];
+
 class App extends Component {
   state = {
     categories: [
@@ -36,36 +38,36 @@ class App extends Component {
       { id: 3, name: "KIDS", active: 0 },
     ],
     products: [
-      { id: 1, name: "Shirt", price: 45, picture: shirt },
-      { id: 2, name: "T-shirt", price: 55, picture: tshirt },
-      { id: 3, name: "Jacket", price: 65, picture: jacket },
-      { id: 4, name: "Hoodie", price: 75, picture: hoodie },
-      { id: 5, name: "Jeans", price: 85, picture: jeans },
-      { id: 6, name: "Boots", price: 95, picture: boots },
+      { id: "woman-#1", name: "Shirt", price: 45, picture: shirt },
+      { id: "woman-#2", name: "T-shirt", price: 55, picture: tshirt },
+      { id: "woman-#3", name: "Jacket", price: 65, picture: jacket },
+      { id: "woman-#4", name: "Hoodie", price: 75, picture: hoodie },
+      { id: "woman-#5", name: "Jeans", price: 85, picture: jeans },
+      { id: "woman-#6", name: "Boots", price: 95, picture: boots },
     ],
     productsWoman: [
-      { id: 1, name: "Shirt", price: 45, picture: shirt },
-      { id: 2, name: "T-shirt", price: 55, picture: tshirt },
-      { id: 3, name: "Jacket", price: 65, picture: jacket },
-      { id: 4, name: "Hoodie", price: 75, picture: hoodie },
-      { id: 5, name: "Jeans", price: 85, picture: jeans },
-      { id: 6, name: "Boots", price: 95, picture: boots },
+      { id: "woman-#1", name: "Shirt", price: 45, picture: shirt },
+      { id: "woman-#2", name: "T-shirt", price: 55, picture: tshirt },
+      { id: "woman-#3", name: "Jacket", price: 65, picture: jacket },
+      { id: "woman-#4", name: "Hoodie", price: 75, picture: hoodie },
+      { id: "woman-#5", name: "Jeans", price: 85, picture: jeans },
+      { id: "woman-#6", name: "Boots", price: 95, picture: boots },
     ],
     productsMan: [
-      { id: 1, name: "Shirt", price: 35, picture: shirtMan },
-      { id: 2, name: "T-shirt", price: 45, picture: tshirtMan },
-      { id: 3, name: "Jacket", price: 55, picture: jacketMan },
-      { id: 4, name: "Hoodie", price: 65, picture: hoodieMan },
-      { id: 5, name: "Jeans", price: 75, picture: jeansMan },
-      { id: 6, name: "Boots", price: 85, picture: bootsMan },
+      { id: "man-#1", name: "Shirt", price: 35, picture: shirtMan },
+      { id: "man-#2", name: "T-shirt", price: 45, picture: tshirtMan },
+      { id: "man-#3", name: "Jacket", price: 55, picture: jacketMan },
+      { id: "man-#4", name: "Hoodie", price: 65, picture: hoodieMan },
+      { id: "man-#5", name: "Jeans", price: 75, picture: jeansMan },
+      { id: "man-#6", name: "Boots", price: 85, picture: bootsMan },
     ],
     productsKids: [
-      { id: 1, name: "Shirt", price: 25, picture: shirtKids },
-      { id: 2, name: "T-shirt", price: 35, picture: tshirtKids },
-      { id: 3, name: "Jacket", price: 45, picture: jacketKids },
-      { id: 4, name: "Hoodie", price: 55, picture: hoodieKids },
-      { id: 5, name: "Jeans", price: 65, picture: jeansKids },
-      { id: 6, name: "Boots", price: 75, picture: bootsKids },
+      { id: "kids-#1", name: "Shirt", price: 25, picture: shirtKids },
+      { id: "kids-#2", name: "T-shirt", price: 35, picture: tshirtKids },
+      { id: "kids-#3", name: "Jacket", price: 45, picture: jacketKids },
+      { id: "kids-#4", name: "Hoodie", price: 55, picture: hoodieKids },
+      { id: "kids-#5", name: "Jeans", price: 65, picture: jeansKids },
+      { id: "kids-#6", name: "Boots", price: 75, picture: bootsKids },
     ],
     tempProduct: [{ id: 1, name: "Shirt", price: 35, picture: shirt }],
     cartItem: {
@@ -109,6 +111,7 @@ class App extends Component {
                   onProductClick={this.handleProductClick}
                   currencyRate={this.currencyRate()}
                   currencySymbol={this.currencySymbol()}
+                  onProductImpression={this.handleGTMProductImpression}
                 />
               }
             />
@@ -122,6 +125,7 @@ class App extends Component {
                   onSizeSelect={this.handleSizeSelect}
                   currencyRate={this.currencyRate()}
                   currencySymbol={this.currencySymbol()}
+                  cartItem={this.state.cartItem}
                 />
               }
             />
@@ -197,20 +201,20 @@ class App extends Component {
     this.setState({
       tempProduct: JSON.parse(localStorage.getItem("selectedProduct")),
     });
+
+    this.handleGTMProductClick(product);
   };
 
   handleColorSelect = (event) => {
     let state = this.state;
     state.cartItem.color = event.target.value;
     this.setState({ state });
-    console.log(this.state.properties);
   };
 
   handleSizeSelect = (event) => {
     let state = this.state;
     state.cartItem.size = event.target.value;
     this.setState({ state });
-    console.log(this.state.properties);
   };
 
   handleAddToCart = (product) => {
@@ -221,20 +225,35 @@ class App extends Component {
     state.cartItem.price = product.price;
     state.cartItem.picture = product.picture;
     state.cartItem.quantity = 1;
-    array.push(state.cartItem);
+    let productQuantity = 1;
+    let duplicate = false;
+    array.map((item) =>
+      item.picture === state.cartItem.picture &&
+      item.color === state.cartItem.color &&
+      item.size === state.cartItem.size
+        ? (item.quantity++,
+          (duplicate = true),
+          (productQuantity = item.quantity))
+        : (duplicate = duplicate)
+    );
+    duplicate ? (duplicate = duplicate) : array.push(state.cartItem);
     localStorage.setItem("cart", JSON.stringify(array));
-    this.setState({ state });
-    this.setState({ cart: array });
+    this.setState({ cart: JSON.parse(localStorage.getItem("cart")) || [] });
+
+    this.handleGTMAddToCart(product, productQuantity);
   };
 
   handleQuantityChange = (product, sign) => {
     console.log(product, sign);
     let array = JSON.parse(localStorage.getItem("cart")) || [];
     array.map((item) =>
-      item.picture === product.picture
+      item.picture === product.picture &&
+      item.color === product.color &&
+      item.size === product.size
         ? sign === "+"
-          ? item.quantity++
-          : item.quantity--
+          ? (item.quantity++, this.handleGTMAddToCart(product, item.quantity))
+          : (item.quantity--,
+            this.handleGTMRemoveFromCart(product, item.quantity))
         : (item = item)
     );
     array = array.filter((item) => item.quantity > 0);
@@ -254,6 +273,83 @@ class App extends Component {
     cart.map((item) => (x = x + item.quantity));
     return x;
   }
+
+  handleGTMProductImpression = (product) => {
+    const index = this.state.products.indexOf(product);
+    dataLayer.push({ ecommerce: null });
+    dataLayer.push({
+      event: "productImpression",
+      currency: this.currencySymbol(),
+      ecommerce: {
+        actionPage: "Category Page",
+        product: [
+          {
+            name: product.name,
+            id: product.id,
+            price: product.price * this.currencyRate(),
+            position: index + 1,
+          },
+        ],
+      },
+    });
+  };
+  handleGTMProductClick = (product) => {
+    dataLayer.push({ ecommerce: null });
+    dataLayer.push({
+      event: "productClick",
+      currency: this.currencySymbol(),
+      ecommerce: {
+        actionPage: "Category Page",
+        product: [
+          {
+            name: product.name,
+            id: product.id,
+            price: product.price * this.currencyRate(),
+          },
+        ],
+      },
+    });
+  };
+  handleGTMAddToCart = (product, productQuantity) => {
+    dataLayer.push({ ecommerce: null });
+    dataLayer.push({
+      event: "addToCart",
+      currency: this.currencySymbol(),
+      ecommerce: {
+        actionPage: "Product Display Page",
+        product: [
+          {
+            name: product.name,
+            id: product.id,
+            price: product.price * this.currencyRate(),
+            quantity: productQuantity,
+            dimension1: product.id + "-" + this.state.cartItem.size,
+            dimension2: product.name + "-" + this.state.cartItem.color,
+          },
+        ],
+      },
+    });
+  };
+  handleGTMRemoveFromCart = (product, productQuantity) => {
+    dataLayer.push({ ecommerce: null });
+    dataLayer.push({
+      event: "RemoveFromCart",
+      currency: this.currencySymbol(),
+      ecommerce: {
+        actionPage: "Cart",
+        product: [
+          {
+            name: product.name,
+            id: product.id,
+            price: product.price * this.currencyRate(),
+            quantity: productQuantity,
+            dimension1: product.id + "-" + this.state.cartItem.size,
+            dimension2: product.name + "-" + this.state.cartItem.color,
+          },
+        ],
+      },
+    });
+  };
 }
 
 export default App;
